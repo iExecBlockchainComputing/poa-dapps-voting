@@ -1,5 +1,5 @@
 let constants = {}
-constants.organization = 'poanetwork'
+constants.organization = 'iExecBlockchainComputing'
 constants.repoName = 'poa-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
@@ -55,6 +55,7 @@ constants.SOKOL = 'sokol'
 constants.CORE = 'core'
 constants.DAI = 'dai'
 constants.KOVAN = 'kovan'
+constants.VIVIANI = 'viviani'
 
 constants.NETWORKS = {
   '42': {
@@ -80,6 +81,12 @@ constants.NETWORKS = {
     RPC: 'https://dai.poa.network',
     BRANCH: constants.DAI,
     TESTNET: false
+  },
+  '133': {
+    NAME: 'vRLC',
+    RPC: 'https://viviani.iex.ec',
+    BRANCH: constants.VIVIANI,
+    TESTNET: true
   }
 }
 
