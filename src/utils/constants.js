@@ -22,7 +22,7 @@ constants.NEW_MINING_KEY = {
   value: '0x0000000000000000000000000000000000000000'
 }
 
-constants.minBallotDurationInHours = 3600
+constants.minBallotDurationInHours = 1
 constants.startTimeOffsetInMinutes = 5
 constants.endTimeDefaultInMinutes = 2890
 constants.getTransactionReceiptInterval = 5000
