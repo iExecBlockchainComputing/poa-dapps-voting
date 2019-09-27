@@ -60,7 +60,7 @@ export class NewBallot extends React.Component {
     }
 
     if (!ballotStore.isBallotForEmissionFunds) {
-      const minBallotDurationInHours = constants.minBallotDurationInDays * 24
+      const minBallotDurationInHours = constants.minBallotDurationInHours
       const startTime = this.getStartTimeUnix()
       const minEndTime = moment
         .utc()

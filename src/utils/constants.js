@@ -22,7 +22,7 @@ constants.NEW_MINING_KEY = {
   value: '0x0000000000000000000000000000000000000000'
 }
 
-constants.minBallotDurationInDays = 2
+constants.minBallotDurationInHours = 3600
 constants.startTimeOffsetInMinutes = 5
 constants.endTimeDefaultInMinutes = 2890
 constants.getTransactionReceiptInterval = 5000
@@ -56,6 +56,7 @@ constants.CORE = 'core'
 constants.DAI = 'dai'
 constants.KOVAN = 'kovan'
 constants.VIVIANI = 'viviani'
+constants.BELLECOUR = 'bellecour'
 
 constants.NETWORKS = {
   '42': {
@@ -87,6 +88,12 @@ constants.NETWORKS = {
     RPC: 'https://viviani.iex.ec',
     BRANCH: constants.VIVIANI,
     TESTNET: true
+  },
+  '134': {
+    NAME: 'xRLC',
+    RPC: 'https://bellecour.iex.ec',
+    BRANCH: constants.BELLECOUR,
+    TESTNET: false
   }
 }
 
