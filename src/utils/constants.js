@@ -57,6 +57,7 @@ constants.DAI = 'dai'
 constants.KOVAN = 'kovan'
 constants.VIVIANI = 'viviani'
 constants.BELLECOUR = 'bellecour'
+constants.SANDBOX = 'sandbox'
 
 constants.NETWORKS = {
   '42': {
@@ -93,6 +94,12 @@ constants.NETWORKS = {
     NAME: 'xRLC',
     RPC: 'https://bellecour.iex.ec',
     BRANCH: constants.BELLECOUR,
+    TESTNET: false
+  },
+  '138': {
+    NAME: 'test',
+    RPC: 'https://sandbox.iex.ec',
+    BRANCH: constants.SANDBOX,
     TESTNET: false
   }
 }
